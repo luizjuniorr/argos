@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-dark-mode: #0D1117;
+    --color-dark-green: #007C38;
+    --color-light-green: #6CB22A;
+    --color-green-user: #33673B;
+    --color-gray: #ADADAD;
+    --color-silver: #CBBFB9;
+
+    --font-strike: "Protest Strike", sans-serif;
+    --font-tauri: "Tauri", sans-serif;
+    --font-gabarito: "Gabarito", sans-serif;
+    --font-redhat: "Red Hat Display", sans-serif;
+    --font-inter: "Inter", sans-serif;
+
+    --bg-projeto: bakcground-image: url('./assets/background_projeto.png');
+}
