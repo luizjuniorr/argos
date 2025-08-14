@@ -1,6 +1,7 @@
 import { Header } from "../components/Header.jsx";
 
 import produto from "../assets/produto.png"
+import { Produto } from "../components/Produto.jsx";
 
 export function ProdutosUtilizados() {
     return (
@@ -12,96 +13,11 @@ export function ProdutosUtilizados() {
 
                 <div className="flex flex-wrap justify-center gap-5 w-full">
 
-                    <div className="flex justify-around w-60">
-                        <div className="border-1 border-gray p-5">
-                            <img src={produto} alt="" className="h-40 border-1 border-gray" />
+                    <Produto imagem={produto} produto="Arduino" preco="39,99" promocao="49,99"/>
 
-                            <p>Nome do produto</p>
+                    <Produto imagem={produto} produto="Fios" preco="39,99" promocao="49,99"/>
 
-                            <div>
-                                <p className="text-gray line-through">R$ 49,99</p>
-                                <p>R$ 39,99</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-around w-60">
-                        <div className="border-1 border-gray p-5">
-                            <img src={produto} alt="" className="h-40 border-1 border-gray" />
-
-                            <p>Nome do produto</p>
-
-                            <div>
-                                <p className="text-gray line-through">R$ 49,99</p>
-                                <p>R$ 39,99</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-around w-60">
-                        <div className="border-1 border-gray p-5">
-                            <img src={produto} alt="" className="h-40 border-1 border-gray" />
-
-                            <p>Nome do produto</p>
-
-                            <div>
-                                <p className="text-gray line-through">R$ 49,99</p>
-                                <p>R$ 39,99</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-around w-60">
-                        <div className="border-1 border-gray p-5">
-                            <img src={produto} alt="" className="h-40 border-1 border-gray" />
-
-                            <p>Nome do produto</p>
-
-                            <div>
-                                <p className="text-gray line-through">R$ 49,99</p>
-                                <p>R$ 39,99</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-around w-60">
-                        <div className="border-1 border-gray p-5">
-                            <img src={produto} alt="" className="h-40 border-1 border-gray" />
-
-                            <p>Nome do produto</p>
-
-                            <div>
-                                <p className="text-gray line-through">R$ 49,99</p>
-                                <p>R$ 39,99</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-around w-60">
-                        <div className="border-1 border-gray p-5">
-                            <img src={produto} alt="" className="h-40 border-1 border-gray" />
-
-                            <p>Nome do produto</p>
-
-                            <div>
-                                <p className="text-gray line-through">R$ 49,99</p>
-                                <p>R$ 39,99</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-around w-60">
-                        <div className="border-1 border-gray p-5">
-                            <img src={produto} alt="" className="h-40 border-1 border-gray" />
-
-                            <p>Nome do produto</p>
-
-                            <div>
-                                <p className="text-gray line-through">R$ 49,99</p>
-                                <p>R$ 39,99</p>
-                            </div>
-                        </div>
-                    </div>
+                    <Produto imagem={produto} produto="Capacitores" preco="39,99" promocao="49,99"/>
 
                 </div>
             </div>

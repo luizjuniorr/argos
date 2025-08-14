@@ -16,6 +16,7 @@ import planejamentorural_escuro from "../assets/icon_planejamentorural_escuro.pn
 import consultoriaagricola_escuro from "../assets/icon_consultoriaagricola_escuro.png"
 import tecnologiaagricola_escuro from "../assets/icon_tecnologiaagricola_escuro.png"
 import monitoramentoagricola_escuro from "../assets/icon_monitoramentoagricola_escuro.png"
+import { Servicos } from "../components/Servicos.jsx";
 
 export function QuemSomos() {
     const tema = localStorage.getItem("tema");
@@ -40,63 +41,21 @@ export function QuemSomos() {
 
                     <div className="mt-5 flex flex-col md:flex-row gap-15 md:gap-30">
 
-                        <div className="flex items-center justify-center gap-4">
-                            <img src={tema === "dark" ? acessoriatecnica_escuro : acessoriatecnica_claro} alt="Ícone de Acessoria Técnica" className="h-14" />
+                        <Servicos ImagemClaro={acessoriatecnica_claro} ImagemEscuro={acessoriatecnica_escuro} Titulo="Assessoria Técnica" Texto="Compartilhamos conhecimento para impulsionar produção" />
 
-                            <div className="text-center">
-                                <h3 className="font-strike md:text-xl md:font-gabarito">Acessoria Técnica</h3>
-                                <p className="text-sm leading-snug w-50">Compartilhamos conhecimento para impulsionar produção</p>
-                            </div>
-                        </div>
+                        <Servicos ImagemClaro={consultoriaambiental_claro} ImagemEscuro={consultoriaambiental_escuro} Titulo="Consultoria Ambiental" Texto="Possuímos práticas sustentáveis que não prejudicam as plantações"/>
 
-                        <div className="flex items-center justify-center gap-4">
-                            <img src={tema === "dark" ? consultoriaambiental_escuro : consultoriaambiental_claro} alt="Ícone de Acessoria Técnica" className="h-14" />
-
-                            <div className="text-center">
-                                <h3 className="font-strike md:text-xl md:font-gabarito">Consultoria Ambiental</h3>
-                                <p className="text-sm leading-snug w-50">Possuímos práticas sustentáveis que não prejudicam as plantações</p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-center justify-center gap-4">
-                            <img src={tema === "dark" ? planejamentorural_escuro : planejamentorural_claro} alt="Ícone de Acessoria Técnica" className="h-14" />
-
-                            <div className="text-center">
-                                <h3 className="font-strike md:text-xl md:font-gabarito">Planejamento Rural</h3>
-                                <p className="text-sm leading-snug w-50">Com o nosso protótipo você consegue ver em qual estação possui um grande número de pragas</p>
-                            </div>
-                        </div>
+                        <Servicos ImagemClaro={planejamentorural_claro} ImagemEscuro={planejamentorural_escuro} Titulo="Planejamento Rural" Texto="Com o nosso protótipo você consegue ver em qual estação possui um grande número de pragas"/>
 
                     </div>
 
                     <div className="mt-5 flex flex-col md:flex-row gap-15 md:gap-30">
 
-                        <div className="flex items-center justify-center gap-4">
-                            <img src={tema === "dark" ? consultoriaagricola_escuro : consultoriaagricola_claro} alt="Ícone de Acessoria Técnica" className="h-14" />
+                        <Servicos ImagemClaro={consultoriaagricola_claro} ImagemEscuro={consultoriaagricola_escuro} Titulo="Consultoria Agricola" Texto="Implementação de técnicas avanças e dicas"/>
 
-                            <div className="text-center">
-                                <h3 className="font-strike md:text-xl md:font-gabarito">   Consultoria Agricola</h3>
-                                <p className="text-sm leading-snug w-50">Implementação de técnicas avanças e dicas</p>
-                            </div>
-                        </div>
+                        <Servicos ImagemClaro={tecnologiaagricola_claro} ImagemEscuro={tecnologiaagricola_escuro} Titulo="Tecnologia Agricola" Texto="Único produto com tecnologia de contabilizar as pragas"/>
 
-                        <div className="flex items-center justify-center gap-4">
-                            <img src={tema === "dark" ? tecnologiaagricola_escuro : tecnologiaagricola_claro} alt="Ícone de Acessoria Técnica" className="h-14" />
-
-                            <div className="text-center">
-                                <h3 className="font-strike md:text-xl md:font-gabarito">Tecnologia Agricola</h3>
-                                <p className="text-sm leading-snug w-50">Único produto com tecnologia de contabilizar as pragas</p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-center justify-center gap-4">
-                            <img src={tema === "dark" ? monitoramentoagricola_escuro : monitoramentoagricola_claro} alt="Ícone de Acessoria Técnica" className="h-14" />
-
-                            <div className="text-center">
-                                <h3 className="font-strike md:text-xl md:font-gabarito">Monitoramento Agricola</h3>
-                                <p className="text-sm leading-snug w-50">Conseguimos monitorar a sua plantação</p>
-                            </div>
-                        </div>
+                        <Servicos ImagemClaro={monitoramentoagricola_claro} ImagemEscuro={monitoramentoagricola_escuro} Titulo="Monitoramento Agricola" Texto="Conseguimos monitorar a sua plantação"/>
 
                     </div>
 
