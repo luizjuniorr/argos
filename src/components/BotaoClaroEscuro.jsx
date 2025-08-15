@@ -1,39 +1,35 @@
-export function BotaoClaroEscuro({ situacaoBotao, setSituacaoBotao, tema, setTema }) {
+import { useContext, useState } from "react";
+import { ThemeContext } from "../context/ThemeContext.jsx";
+
+export function BotaoClaroEscuro() {
+    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { button, setButton} = useState(true)
 
     function modoEscuroClaro() {
+        toggleTheme();
 
-        if (situacaoBotao === true) {
-            setSituacaoBotao(false)
-            setTema("dark")
-            localStorage.setItem("tema", JSON.stringify(tema))
-            return
-        }
-
-        setSituacaoBotao(true)
-        setTema("light")
-        localStorage.setItem("tema", JSON.stringify(tema))
+    if (button === "true") {   
+        setButton(false)
+        return
     }
+    setButton(true)
+        
+    }
+    
+
 
     return (
         <>
-            {
-                situacaoBotao ? (
-                    <div>
-                        <button className="bg-none transition duration-400" onClick={modoEscuroClaro}>
-                            <div className="w-12 h-5 rounded-xl bg-white flex items-center p-1 cursor-pointer">
-                                <div className="w-3 h-3 bg-dark-mode rounded-full"></div>
-                            </div>
-                        </button>
-                    </div>
-                ) : (
-                    <div>
-                        <button className="bg-none transition duration-400" onClick={modoEscuroClaro}>
-                            <div className="w-12 h-5 rounded-xl bg-dark-mode flex items-center p-1 cursor-pointer justify-end">
-                                <div className="w-3 h-3 bg-white rounded-full flex "></div>
-                            </div>
-                        </button>
-                    </div>
-                )}
+            { button ? (
+                <div onClick={modoEscuroClaro()} className="dark:bg-white bg-dark-mode w-15 h-5 rounded-full flex items-center justify-start cursor-pointer">
+                    <div className="dark:bg-dark-mode bg-white w-4 h-4 rounded-full ml-1"></div>
+                </div>
+            ) : (
+                <div onClick={modoEscuroClaro()} className="dark:bg-white bg-dark-mode w-15 h-5 rounded-full flex items-center justify-end cursor-pointer">
+                    <div className="dark:bg-dark-mode bg-white w-4 h-4 rounded-full ml-1"></div>
+                </div>
+            )}
         </>
     )
+    
 }

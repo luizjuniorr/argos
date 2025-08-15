@@ -40,7 +40,7 @@ export function Header() {
             <img className="h-6 md:h-9 md:hidden cursor-pointer" src={tema === "dark" ? menu_escuro : menu_claro} alt="Menu" onClick={toggleMenu}/>
             <Link to={"/jogo"}><img className="h-6 md:h-9 hidden md:block" src={tema === "dark" ? jogo_escuro : jogo_claro} alt="Jogo" /></Link>
             <img className="h-6 md:h-9" src={tema === "dark" ? logo_escuro : logo_claro} alt="Logo" />
-            <img className="h-6 md:h-9" src={tema === "dark" ? usuario_escuro : usuario_claro} alt="Usuário" />
+            <BotaoClaroEscuro situacaoBotao={situacaoBotao} setSituacaoBotao={setSituacaoBotao} tema={tema} setTema={setTema}/>
           </div>
           <div className="w-full h-1 bg-dark-green md:hidden"></div>
           
@@ -54,7 +54,7 @@ export function Header() {
                   <li className="cursor-pointer">Instruções</li>
                   <li className="cursor-pointer"><Link to={"/produtosutilizados"}>Produtos Utilizados</Link></li>
                   <li className="cursor-pointer"><Link to={"/QuemSomos"}>Quem Somos</Link></li>
-                  <li className="cursor-pointer">Referências</li>
+                  <li className="cursor-pointer"><Link to={"/Referencias"}>Referências</Link></li>
                   <li> <BotaoClaroEscuro situacaoBotao={situacaoBotao} setSituacaoBotao={setSituacaoBotao} tema={tema} setTema={setTema}/></li>
                 </ul>
               </div>
@@ -62,12 +62,11 @@ export function Header() {
           )}
 
           <div className="hidden md:block">
-            <ul className="flex justify-between px-2 list-none w-full bg-dark-green text-white">
+            <ul className="flex justify-around px-2 list-none w-full bg-dark-green text-white">
               <li className="cursor-pointer">Instruções</li>
               <li className="cursor-pointer"><Link to={"/produtosutilizados"}>Produtos Utilizados</Link></li>
               <li className="cursor-pointer"><Link to={"/QuemSomos"}>Quem Somos</Link></li>
-              <li className="cursor-pointer">Referências</li>
-              <li><BotaoClaroEscuro situacaoBotao={situacaoBotao} setSituacaoBotao={setSituacaoBotao} tema={tema} setTema={setTema}/></li>
+              <li className="cursor-pointer"><Link to={"/Referencias"}>Referências</Link></li>
             </ul>
           </div>
         </div>
