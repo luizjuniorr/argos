@@ -1,17 +1,21 @@
 import { Header } from "../components/Header"
+import { useState, useContext } from "react"
+import { ThemeContext } from "../context/ThemeContext"
 
 import background_referencias from "../assets/background_referencias.png"
 import pesquisabrasil from "../assets/pesquisabrasil.png"
 
 export function Referencias() {
+    const { theme, toggleTheme } = useContext(ThemeContext)
+
     return(
-        <div className="relative min-h-screen w-full bg-cover bg-center flex flex-col justify-between" style={{ backgroundImage: `url(${background_referencias})` }}>
+        <div className="dark:text-white relative min-h-screen w-full bg-cover bg-center flex flex-col justify-between" style={{ backgroundImage: `url(${background_referencias})` }}>
             <Header />
 
             <h1 className="my-10 text-white font-tauri ml-5 text-xl md:hidden">Referências</h1>
 
-            <div className="bg-white md:mt-50 md:rounded-tl-4xl md:rounded-tr-4xl">
-                <h1 className="my-10 text-dark-green font-strike ml-5 text-5xl hidden md:block md:px-15">Referências</h1>
+            <div className="dark:bg-dark-mode bg-white md:mt-50 md:rounded-tl-4xl md:rounded-tr-4xl">
+                <h1 className="my-10 text-dark-green dark:text-white font-strike ml-5 text-5xl hidden md:block md:px-15">Referências</h1>
                 <div className="bg-dark-green w-9/10 h-1 hidden md:block mx-auto"></div>
                 <div className="flex flex-col md:flex-row gap-5 mt-5 justify-around w-full max-w-7xl mx-auto">
                     <div className="px-5 gap-5 flex flex-col font-redhat md:w-1/2">

@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react"
+import { ThemeContext } from "../context/ThemeContext.jsx"
 import { Header } from "../components/Header.jsx"
 import { CardEquipe } from "../components/CardEquipe.jsx"
 
@@ -19,7 +20,7 @@ import monitoramentoagricola_escuro from "../assets/icon_monitoramentoagricola_e
 import { Servicos } from "../components/Servicos.jsx";
 
 export function QuemSomos() {
-    const tema = localStorage.getItem("tema");
+    const { theme, toggleTheme } = useContext(ThemeContext)
 
     return (
         <div className="dark:text-white">

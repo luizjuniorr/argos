@@ -14,7 +14,7 @@ export function ProdutosUtilizados() {
             <Header />
             <div className="flex flex-col justify-center items-center">
 
-                <h1 className="font-tauri text-2xl mt-2 mb-2">Produtos utilizados {theme}</h1>
+                <h1 className="font-tauri text-2xl mt-2 mb-2">Produtos utilizados </h1>
 
                 <div className="flex flex-wrap justify-center gap-5 w-full">
 

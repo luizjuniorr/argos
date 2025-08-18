@@ -4,8 +4,11 @@
 
 @theme {
     --color-dark-mode: #0D1117;
-    --color-dark-green: #007C38;
+    --color-dark-green: #0B4421;
+    --color-dark-greenn: #007C38;
+    --color-instrucoes-green: #007C38;
     --color-light-green: #6CB22A;
+    --color-verde-pastel: #CFEE9E;
     --color-green-user: #33673B;
     --color-gray: #ADADAD;
     --color-silver: #CBBFB9;
