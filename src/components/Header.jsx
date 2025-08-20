@@ -25,13 +25,15 @@ export function Header() {
     <>
       <div className="w-full bg-white relative font-redhat dark:bg-dark-mode">
         <div className="flex justify-between items-center p-2 z-10 relative">
-          <img  className="h-6 md:h-9 md:hidden cursor-pointer" src={theme === "dark" ? menu_escuro : menu_claro} alt="Menu" onClick={toggleMenu}/>
+          <img className="h-6 md:h-9 md:hidden cursor-pointer" src={theme === "dark" ? menu_escuro : menu_claro} alt="Menu" onClick={toggleMenu} />
 
           <Link to={"/jogo"} className="hidden md:block">
             <img className="h-6 md:h-9" src={theme === "dark" ? jogo_escuro : jogo_claro} alt="Jogo" />
           </Link>
 
-          <img className="h-6 md:h-9" src={theme === "dark" ? logo_escuro : logo_claro} alt="Logo"/>
+          <Link to={"/"}>
+            <img className="h-6 md:h-9" src={theme === "dark" ? logo_escuro : logo_claro} alt="Logo" />
+          </Link>
 
           <BotaoClaroEscuro />
         </div>
@@ -45,7 +47,7 @@ export function Header() {
 
             <div className="fixed top-0 left-0 w-1/2 h-screen bg-white dark:bg-dark-mode text-black dark:text-white z-50 p-4 transition-all">
               <button onClick={toggleMenu} className="text-right w-full mb-4 text-xl" >
-                <img src={theme === "dark" ? fecharmenu_escuro : fecharmenu_claro} alt="Fechar"/>
+                <img src={theme === "dark" ? fecharmenu_escuro : fecharmenu_claro} alt="Fechar" />
               </button>
               <ul className="space-y-4 text-dark-green dark:text-white">
                 <li className="cursor-pointer">
