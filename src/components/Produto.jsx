@@ -7,7 +7,7 @@ export function Produto({ imagem, produto, preco, promocao }) {
                 <p>{produto}</p>
 
                 <div>
-                    <p className="text-gray line-through">R$ {promocao}</p>
+                    {/* <p className="text-gray line-through">R$ {promocao}</p> */}
                     <p>R$ {preco}</p>
                 </div>
             </div>
