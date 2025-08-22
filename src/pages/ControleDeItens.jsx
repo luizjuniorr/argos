@@ -1,6 +1,6 @@
 import { Header } from "../components/Header";
 
-import produto from "../assets/produto.png"
+import produto from "../assets/produto_controle.png"
 import icon_editar from "../assets/icon_editar.png"
 import icon_excluir from "../assets/icon_excluir.png"
 

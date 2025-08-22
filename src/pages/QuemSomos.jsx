@@ -68,9 +68,9 @@ export function QuemSomos() {
 
                 <div className="flex flex-col md:flex-row gap-5">
                     <div className="flex gap-5">
-                        <CardEquipe nome="Gabriel Penha" />
+                        <CardEquipe nome="Gabriel Penha"  />
 
-                        <CardEquipe nome="Luiz Fernando" />
+                        <CardEquipe nome="Luiz Fernando" link_linkedin={"www.linkedin.com/in/luiz-fernando-de-jesus-junior"}/>
                     </div>
 
                     <div className="flex gap-5">
