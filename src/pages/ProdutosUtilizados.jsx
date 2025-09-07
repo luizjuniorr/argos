@@ -10,7 +10,7 @@ import painelsolar from "../assets/produto_PlacaSolar.webp"
 import reguladordetensao from "../assets/produto_ReguladorDeTensao.webp"
 import sensordechuva from "../assets/produto_SensorDeChuva.png"
 import resistores from "../assets/produto_resistores.png"
-import servomotor from "../assets/produto_servoMotor.webp"
+import servomotor from "../assets/produto_ServoMotor.webp"
 import camera from "../assets/produto_UNIHIKER.png"
 
 import { Produto } from "../components/Produto.jsx";
