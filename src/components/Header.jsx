@@ -4,7 +4,7 @@ import { BotaoClaroEscuro } from "./BotaoClaroEscuro.jsx"
 import { Link } from "react-router-dom";
 
 import menu_claro from "../assets/menu_claro.svg"
-import logo_claro from "../assets/logo_claro.svg"
+import logo_claro from "../assets/logo_claro.png"
 import jogo_claro from "../assets/jogo_claro.png"
 import fecharmenu_claro from "../assets/fecharmenu_claro.png";
 

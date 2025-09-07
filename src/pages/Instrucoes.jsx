@@ -37,7 +37,7 @@ export function Instrucoes() {
                     <div className="flex gap-30">
                         <div className="flex flex-col items-center max-w-200 mt-20">
                             <h1 className="font-strike text-white text-8xl text-left">Como funciona o <br></br><strong className="text-dark-green">Argos?</strong></h1>
-                            <p className="text-white text-2xl font-redhat mx-8 mt-10">O AgroView atrai pragas agrícolas usando feromônios instalados pelo produtor. Os insetos ficam presos em fitas atrativas, onde são contabilizados periodicamente. Os dados coletados são enviados para o aplicativo, permitindo o monitoramento contínuo das pragas e auxiliando no controle eficaz da plantação.</p>
+                            <p className="text-white text-xl font-redhat mx-8 mt-10">O AgroView atrai pragas agrícolas usando feromônios instalados pelo produtor. Os insetos ficam presos em fitas atrativas, onde são contabilizados periodicamente. Os dados coletados são enviados para o aplicativo, permitindo o monitoramento contínuo das pragas e auxiliando no controle eficaz da plantação.</p>
                         </div>
 
                         <div className="flex items-center justify-center">
@@ -58,8 +58,8 @@ export function Instrucoes() {
 
                 <Instrucao cor={"bg-light-green"} titulo={"ANÁLISE DE DADOS"} imagem={areareservada} textoC={"Cada dispositivo AgroView possui uma identificação única, permitindo que o usuário monitore remotamente múltiplos dispositivos em sua propriedade."} texto={"Os dados coletados sobre o número de insetos capturados por dispositivo, em determinados intervalos de tempo, indicam quais regiões da propriedade e épocas do ano apresentam maior incidência de pragas. Com essas informações, o agricultor pode elaborar um calendário estratégico de pulverizações, evitando aplicações desnecessárias e reduzindo o uso de agrotóxicos. Isso contribui para a economia de recursos e para a melhoria da qualidade do produto final."} texto2={"Em períodos de baixa incidência de pragas, o produtor pode optar por utilizar apenas o AgroView no controle das pragas, até que a infestação exija outras medidas de manejo."}/>
 
-                <div className="bg-dark-mode flex flex-col justify-center items-center pb-2">
-                    <h2 className="uppercase font-strike text-2xl text-white mt-10 text-center">AINDA HÁ DÚVIDAS? ASSISTA ESTE VÍDEO</h2>
+                <div className="bg-white dark:bg-dark-mode flex flex-col justify-center items-center pb-2">
+                    <h2 className="uppercase font-strike text-2xl text-black dark:text-white mt-10 text-center">AINDA HÁ DÚVIDAS? ASSISTA ESTE VÍDEO</h2>
                     <img src={areareservada} alt="" className="w-120 h-70 mx-auto mt-10" />
                 </div>
             </div>
