@@ -17,9 +17,9 @@ export function Instrucao({ titulo, imagem, textoC, textoC2, texto, texto2, text
                 </div>
             </div>
 
-            <div className={`${cor} flex justify-center items-center pb-2 hidden md:flex`}>
-                <div className="md:max-w-1/2">
-                    <h2 className="uppercase font-strike text-5xl text-verde-pastel ml-8 mt-20">{titulo}</h2>
+            <div className={`${cor} w-screen flex justify-center items-center pb-2 hidden md:flex`}>
+                <div className="md:max-w-1/2 mx-auto">
+                    <h2 className="uppercase font-strike text-5xl text-verde-pastel mt-20">{titulo}</h2>
                     {textoC && <TextoInstrucoes texto={textoC} />}
                     {textoC2 && <TextoInstrucoes texto={textoC2} />}
                     {texto && <TextoInstrucoes texto={texto} />}
