@@ -35,7 +35,13 @@ export function Header() {
             <img className="h-6 md:h-9" src={theme === "dark" ? logo_escuro : logo_claro} alt="Logo" />
           </Link>
 
-          <div></div>
+          <div className="hidden md:flex">
+            <BotaoClaroEscuro />
+          </div>
+          
+          <div className="flex md:hidden">
+
+          </div>
         </div>
 
         <div className="w-full h-1 bg-dark-green md:hidden"></div>
