@@ -22,7 +22,7 @@ export function Header() {
   }
 
   return (
-    <>
+    <div className="">
       <div className="w-full bg-white relative font-redhat dark:bg-dark-mode">
         <div className="flex justify-between items-center p-2 z-10 relative">
           <img className="h-6 md:h-9 md:hidden cursor-pointer" src={theme === "dark" ? menu_escuro : menu_claro} alt="Menu" onClick={toggleMenu} />
@@ -35,7 +35,7 @@ export function Header() {
             <img className="h-6 md:h-9" src={theme === "dark" ? logo_escuro : logo_claro} alt="Logo" />
           </Link>
 
-          <BotaoClaroEscuro />
+          <div></div>
         </div>
 
         <div className="w-full h-1 bg-dark-green md:hidden"></div>
@@ -87,6 +87,6 @@ export function Header() {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   )
 }
