@@ -4,7 +4,7 @@ import AppStore from "../assets/AppStore.png"
 import GooglePlay from "../assets/GooglePlay.png"
 import background_projeto from "../assets/background_projeto.png"
 
-import icon_objetivo from "../assets/icon_objetivo.png"
+import icon_objetivo from "../assets/Icon_objetivo.png"
 import icon_nossodiferencial from "../assets/icon_nossodiferencial.png"
 import icon_publicoalvo from "../assets/icon_publicoalvo.png"
 import prototipo from "../assets/prototipo.png"
