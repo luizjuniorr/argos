@@ -4,7 +4,7 @@ export function Instrucao({ titulo, imagem, textoC, textoC2, texto, texto2, text
     return (
         <div className="">
             <div className={`${cor} flex flex-col justify-center items-center pb-2 md:hidden`}>
-                <h2 className="uppercase font-strike text-2xl md:text-5xl text-verde-pastel mx-8 mt-10">{titulo}</h2>
+                <h2 className="uppercase font-strike text-2xl md:text-5xl text-verde-pastel mt-10">{titulo}</h2>
                 <div className="md:max-w-1/2">
                     {textoC && <TextoInstrucoes texto={textoC} />}
                     {textoC2 && <TextoInstrucoes texto={textoC2} />}
