@@ -1,9 +1,9 @@
 import { TextoInstrucoes } from "./TextoIntrucoes.jsx"
 
-export function Instrucao({ titulo, imagem, textoC, textoC2, texto, texto2, texto3, texto4, cor }) {
+export function Instrucao({ titulo, imagem, textoC, textoC2, texto, texto2, texto3, texto4, cor, dark, esquerda }) {
     return (
         <div className="">
-            <div className={`${cor} flex flex-col justify-center items-center pb-2 md:hidden`}>
+            <div className={`${cor} ${dark} flex flex-col justify-center items-center pb-2 md:hidden`}>
                 <h2 className="uppercase font-strike text-2xl md:text-5xl text-verde-pastel mt-10">{titulo}</h2>
                 <div className="md:max-w-1/2">
                     {textoC && <TextoInstrucoes texto={textoC} />}
@@ -17,7 +17,10 @@ export function Instrucao({ titulo, imagem, textoC, textoC2, texto, texto2, text
                 </div>
             </div>
 
-            <div className={`${cor} w-screen flex justify-center items-center pb-2 hidden md:flex`}>
+            <div className={`${cor} ${dark} w-screen flex justify-center items-center pb-2 hidden md:flex px-15`}>
+                {esquerda === true && (
+                    <img src={imagem} alt="" className="h-full mx-10 my-10" />
+                )}
                 <div className="md:max-w-1/2 mx-auto">
                     <h2 className="uppercase font-strike text-5xl text-verde-pastel mt-20">{titulo}</h2>
                     {textoC && <TextoInstrucoes texto={textoC} />}
@@ -27,7 +30,10 @@ export function Instrucao({ titulo, imagem, textoC, textoC2, texto, texto2, text
                     {texto3 && <TextoInstrucoes texto={texto3} />}
                     {texto4 && <TextoInstrucoes texto={texto4} />}
                 </div>
-                <img src={imagem} alt="" className="h-80 mx-auto my-10" />
+
+                {esquerda === false && (
+                    <img src={imagem} alt="" className="h-full mx-10 my-10" />
+                )}
             </div>
         </div>
 
