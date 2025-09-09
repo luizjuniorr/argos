@@ -4,12 +4,12 @@ export function Instrucao({ titulo, imagem, textoC, textoC2, texto, texto2, text
     return (
         <div className="flex flex-col justify-around">
             <div className={`${cor} ${dark} flex flex-col justify-center items-center pb-2 md:hidden`}>
-                <h2 className="uppercase font-strike text-2xl md:text-5xl text-verde-pastel mt-10">{titulo}</h2>
+                <h2 className="uppercase font-strike text-2xl md:text-5xl text-verde-pastel mt-10 mb-5">{titulo}</h2>
                 <div className="md:max-w-1/2">
-                    {textoC && <TextoInstrucoes texto={textoC} />}
+                    {textoC && <p className="text-white text-sm md:text-xl font-redhat mb-10 mx-8 md:mx-0">{textoC}</p>}
                     {textoC2 && <TextoInstrucoes texto={textoC2} />}
                 </div>
-                <img src={imagem} alt="" className="w-70 md:w-130 h-70 md:h-130 mx-auto mt-10" />
+                <img src={imagem} alt="" className="w-70 md:w-130 h-70 md:h-130 mx-auto" />
                 <div className="md:max-w-1/2">
                     {texto && <TextoInstrucoes texto={texto} />}
                     {texto2 && <TextoInstrucoes texto={texto2} />}
