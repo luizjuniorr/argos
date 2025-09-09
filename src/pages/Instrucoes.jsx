@@ -18,12 +18,8 @@ export function Instrucoes() {
                     </div>
 
                     <div className="relative flex items-center justify-center">
-                        <div className="absolute inset-0 z-0 flex justify-center items-center mt-20">
-                            <img src={circle_bg} alt="Círculo de fundo" className="w-74" />
-                        </div>
-
                         <div className="relative z-10">
-                            <img src={prototipo} alt="Protótipo" className="w-32 mt-8" />
+                            <img src={prototipofundo} alt="Protótipo" className="h-70 mt-8 mb-10" />
                         </div>
                     </div>
 
