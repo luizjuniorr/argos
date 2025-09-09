@@ -12,6 +12,7 @@ import sensordechuva from "../assets/produto_SensorDeChuva.png"
 import resistores from "../assets/produto_resistores.png"
 import servomotor from "../assets/produto_ServoMotor.webp"
 import camera from "../assets/produto_UNIHIKER.png"
+import rtc from "../assets/produto_rtc.webp"
 
 import { Produto } from "../components/Produto.jsx";
 
@@ -43,7 +44,9 @@ export function ProdutosUtilizados() {
 
                     <Produto imagem={reguladordetensao} produto="Regulador de tensão" preco="9,90" />
 
-                    <Produto imagem={servomotor} produto="Servo motor" preco="24,90?" />
+                    <Produto imagem={servomotor} produto="Servo motor" preco="24,90" />
+
+                    <Produto imagem={rtc} produto="Real Time Clock RTC" preco="24,99" />
 
 
                 </div>

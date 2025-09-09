@@ -68,6 +68,9 @@ export function Header() {
                 <li className="cursor-pointer">
                   <Link to={"/Referencias"}>Referências</Link>
                 </li>
+                <li className="cursor-pointer">
+                  <Link to={"/jogo"}>Jogo</Link>
+                </li>
                 <li>
                   <BotaoClaroEscuro />
                 </li>
