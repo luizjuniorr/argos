@@ -2,7 +2,7 @@ import { TextoInstrucoes } from "./TextoIntrucoes.jsx"
 
 export function Instrucao({ titulo, imagem, textoC, textoC2, texto, texto2, texto3, texto4, cor, dark, esquerda }) {
     return (
-        <div className="">
+        <div className="flex flex-col justify-around">
             <div className={`${cor} ${dark} flex flex-col justify-center items-center pb-2 md:hidden`}>
                 <h2 className="uppercase font-strike text-2xl md:text-5xl text-verde-pastel mt-10">{titulo}</h2>
                 <div className="md:max-w-1/2">

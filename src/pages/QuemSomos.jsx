@@ -35,7 +35,7 @@ export function QuemSomos() {
                 </div>
             </div>
 
-            <div className="flex flex-col items-center mb-5">
+            <div className="flex flex-col items-center mb-15">
                 <h2 className="font-strike text-xl md:text-2xl mt-5">Serviços:</h2>
 
                 <div className="flex flex-col items-center mt-2 md:gap-10">

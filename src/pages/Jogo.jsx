@@ -21,7 +21,7 @@ export function Jogo() {
                     </div>
 
                     <p className="text-sm font-redhat text-dark-green text-center md:text-left mb-6 dark:text-white">
-                        Em um futuro próximo, as plantações estão ameaçadas por uma infestação crescente de pragas mutantes que surgiram após desequilíbrios ambientais. Para proteger as lavouras e garantir a produção de alimentos, uma nova geração de fazendeiros se une com tecnologia de ponta e personagens especializados no combate às pragas.
+                        Em um futuro próximo, as plantações estão ameaçadas por uma infestação crescente de pragas mutantes que surgiram após desequilíbrios ambientais. Para proteger as lavouras e garantir a produção de alimentos, um fazendeiro, seu filho, um cientista e um apicultor unem forças no combate às pragas agrícolas.
                     </p>
 
                     <img src={areareservada} alt="" className="w-full max-w-md mb-4 md:hidden border" />

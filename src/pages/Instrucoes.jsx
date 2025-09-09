@@ -32,11 +32,11 @@ export function Instrucoes() {
                     </div>
                 </div>
 
-                <div className="bg-light-green dark:bg-black pb-2 hidden md:flex justify-center">
-                    <div className="flex gap-30">
-                        <div className="flex flex-col items-center max-w-200 mt-20">
+                <div className="bg-light-green dark:bg-black pb-2 hidden md:flex justify-around px-15">
+                    <div className="flex gap-30 ">
+                        <div className="flex flex-col max-w-200 mt-20">
                             <h1 className="font-strike text-white text-8xl text-left">Como funciona o <br></br><strong className="text-dark-green">Argos?</strong></h1>
-                            <p className="text-white text-xl font-redhat mx-8 mt-10">O AgroView atrai pragas agrícolas usando feromônios instalados pelo produtor. Os insetos ficam presos em fitas atrativas, onde são contabilizados periodicamente. Os dados coletados são enviados para o aplicativo, permitindo o monitoramento contínuo das pragas e auxiliando no controle eficaz da plantação.</p>
+                            <p className="text-white text-xl font-redhat mt-10">O AgroView atrai pragas agrícolas usando feromônios instalados pelo produtor. Os insetos ficam presos em fitas atrativas, onde são contabilizados periodicamente. Os dados coletados são enviados para o aplicativo, permitindo o monitoramento contínuo das pragas e auxiliando no controle eficaz da plantação.</p>
                         </div>
 
                         <div className="flex items-center justify-center">

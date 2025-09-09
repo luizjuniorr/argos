@@ -41,9 +41,9 @@ export function Projeto() {
                     </div>
 
                     <div className="flex flex-col md:flex-row justify-center items-center gap-10 pb-5 mt-10">
-                        <Servicos ImagemClaro={icon_objetivo} ImagemEscuro={icon_objetivo} Titulo="Objetivo" Texto="Compartilhamos conhecimento para impulsionar produção" />
-                        <Servicos ImagemClaro={icon_nossodiferencial} ImagemEscuro={icon_nossodiferencial} Titulo="Nosso diferencial" Texto="Possuímos práticas sustentáveis que não prejudicam as plantações" />
-                        <Servicos ImagemClaro={icon_publicoalvo} ImagemEscuro={icon_publicoalvo} Titulo="Público-alvo" Texto="Com o nosso protótipo você consegue ver em qual estação possui um grande número de pragas" />
+                        <Servicos ImagemClaro={icon_objetivo} ImagemEscuro={icon_objetivo} Titulo="Objetivo" Texto="Oferecer uma tecnologia de monitoramento de pragas no campo e contribuir para a redução do uso de agrotóxicos" />
+                        <Servicos ImagemClaro={icon_nossodiferencial} ImagemEscuro={icon_nossodiferencial} Titulo="Nosso diferencial" Texto="Unimos controle de pragas e coleta de dados sem impacto ambiental" />
+                        <Servicos ImagemClaro={icon_publicoalvo} ImagemEscuro={icon_publicoalvo} Titulo="Público-alvo" Texto="Nosso projeto é voltado para todos os produtores rurais, desde o pequeno agricultor até o grande empresário do agronegócio" />
                     </div>
                 </div>
 
