@@ -4,13 +4,11 @@ export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
     const [theme, setTheme] = useState(() => {
-        // tenta pegar do localStorage
         const savedTheme = localStorage.getItem("theme");
         return savedTheme ? savedTheme : "light";
     });
 
     useEffect(() => {
-        // aplica o tema no body
         if (theme === "light") {
             document.body.classList.remove("dark", "bg-dark-mode");
             document.body.classList.add("light");
@@ -19,7 +17,6 @@ export const ThemeProvider = ({ children }) => {
             document.body.classList.add("dark", "bg-dark-mode");
         }
 
-        // salva no localStorage
         localStorage.setItem("theme", theme);
     }, [theme]);
 
