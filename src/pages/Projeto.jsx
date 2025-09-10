@@ -9,6 +9,7 @@ import icon_nossodiferencial from "../assets/Icon_nossodiferencial.png"
 import icon_publicoalvo from "../assets/Icon_publicoalvo.png"
 import prototipo from "../assets/prototipo.png"
 import { Servicos } from "../components/Servicos.jsx"
+import { Link } from "react-router-dom"
 
 export function Projeto() {
     return (
@@ -24,11 +25,14 @@ export function Projeto() {
                         <div className="md:flex md:items-center md:m-auto">
                             <div className="text-center md:text-left md:max-w-xl">
                                 <h1 className="text-5xl font-strike mb-4 md:w-fit">Argos</h1>
-                                <p className="mb-6 text-sm md:w-1/2 md:text-left">Um dispositivo inovador para otimizar o controle de pragas e aumentar a produtividade no setor agrícola. Oferecemos ferramentas avançadas de monitoramento e análise em tempo real. Voltado para produtores rurais, gestores e consultores do agronegócio. Garantindo um controle de pragas mais eficiente e estratégico.</p>
+                                <p className="mb-6 text-sm md:w-1/2 text-left">Um dispositivo automatizado e inovador para controle de pragas e coleta de dados populacionais, otimizando a tomada de decisão em intervenções agrícolas.</p>
 
-                                <button className="bg-dark-green p-1 w-70 rounded-3xl font-redhat hover:bg-green-900 cursor-pointer">
-                                    Saiba mais
-                                </button>
+                                <Link to={"/instrucoes"} >
+                                    <button className="bg-dark-green p-1 w-70 rounded-3xl font-redhat hover:bg-green-900 cursor-pointer">
+                                        Saiba mais
+                                    </button>
+                                </Link>
+
 
                                 <div className="flex gap-4 mt-10 justify-center md:justify-start">
                                     <img src={GooglePlay} alt="Google Play" className="h-10" />
