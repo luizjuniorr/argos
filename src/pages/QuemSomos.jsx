@@ -17,6 +17,11 @@ import planejamentorural_escuro from "../assets/icon_planejamentorural_escuro.pn
 import consultoriaagricola_escuro from "../assets/icon_consultoriaagricola_escuro.png"
 import tecnologiaagricola_escuro from "../assets/icon_tecnologiaagricola_escuro.png"
 import monitoramentoagricola_escuro from "../assets/icon_monitoramentoagricola_escuro.png"
+
+import pablo from "../assets/pablo.png"
+import jamal from "../assets/jamal.png"
+import matheus from "../assets/matheus.png"
+
 import { Servicos } from "../components/Servicos.jsx";
 
 export function QuemSomos() {
@@ -68,15 +73,15 @@ export function QuemSomos() {
 
                 <div className="flex flex-col md:flex-row gap-5">
                     <div className="flex gap-5">
-                        <CardEquipe nome="Gabriel Penha"  />
+                        <CardEquipe nome="Gabriel Penha"  foto={jamal}/>
 
-                        <CardEquipe nome="Luiz Fernando" />
+                        <CardEquipe nome="Luiz Fernando" foto={pablo}/>
                     </div>
 
                     <div className="flex gap-5">
-                        <CardEquipe nome="Matheus Almeida" />
+                        <CardEquipe nome="Matheus Almeida" foto={matheus}/>
 
-                        <CardEquipe nome="Pablo Renato" />
+                        <CardEquipe nome="Pablo Renato" foto={pablo}/>
                     </div>
                 </div>
             </div>
