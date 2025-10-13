@@ -18,9 +18,10 @@ import consultoriaagricola_escuro from "../assets/icon_consultoriaagricola_escur
 import tecnologiaagricola_escuro from "../assets/icon_tecnologiaagricola_escuro.png"
 import monitoramentoagricola_escuro from "../assets/icon_monitoramentoagricola_escuro.png"
 
-import pablo from "../assets/pablo.png"
+import pablo from "../assets/pablorenato.jpeg"
+import luiz from "../assets/luizfernando.jpeg"
 import jamal from "../assets/jamal.png"
-import matheus from "../assets/matheus.png"
+import matheus from "../assets/matheus.jpeg"
 
 import { Servicos } from "../components/Servicos.jsx";
 
@@ -73,15 +74,15 @@ export function QuemSomos() {
 
                 <div className="flex flex-col md:flex-row gap-5">
                     <div className="flex gap-5">
-                        <CardEquipe nome="Gabriel Penha"  foto={jamal}/>
+                        <CardEquipe nome="Gabriel Penha"  foto={jamal} link_linkedin={"https://www.linkedin.com/in/gabriel-penha-7132122a5/"} link_instagram={"https://instagram.com/biel.oliver76"}/>
 
-                        <CardEquipe nome="Luiz Fernando" foto={pablo}/>
+                        <CardEquipe nome="Luiz Fernando" foto={luiz} link_linkedin={"https://www.linkedin.com/in/luiz-fernando-de-jesus-junior/"} link_instagram={"https://instagram.com/_luiz.47"}/>
                     </div>
 
                     <div className="flex gap-5">
-                        <CardEquipe nome="Matheus Almeida" foto={matheus}/>
+                        <CardEquipe nome="Matheus Almeida" foto={matheus} link_linkedin={"https://www.linkedin.com/in/matheus-ara%C3%BAjo-96399b335/"} link_instagram={"https://instagram.com/matheus_alm11"}/>
 
-                        <CardEquipe nome="Pablo Renato" foto={pablo}/>
+                        <CardEquipe nome="Pablo Renato" foto={pablo} link_linkedin={"https://www.linkedin.com/in/pablo-renato-a90108334/"} link_instagram={"https://instagram.com/pablo_renato68"}/>
                     </div>
                 </div>
             </div>
