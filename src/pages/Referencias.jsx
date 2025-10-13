@@ -35,7 +35,8 @@ export function Referencias() {
                     <div className="px-5 md:pb-10">
                         <p className="font-strike mb-5">Podcast</p>
 
-                        <img src={pesquisabrasil} alt="" className="md:w-70"/>
+                        <a href="https://open.spotify.com/show/4CQJrLjl1s3nGBNPABoWx7" target="_blank" rel="noopener noreferrer"><img src={pesquisabrasil} alt="" className="md:w-70"/></a>
+                        
                     </div>
                 </div>
             </div>
