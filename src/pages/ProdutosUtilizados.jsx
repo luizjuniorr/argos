@@ -11,7 +11,7 @@ import reguladordetensao from "../assets/produto_ReguladorDeTensao.webp"
 import sensordechuva from "../assets/produto_SensorDeChuva.png"
 import resistores from "../assets/produto_resistores.png"
 import servomotor from "../assets/produto_ServoMotor.webp"
-import camera from "../assets/produto_UNIHIKER.png"
+import camera from "../assets/produto_huskyleans.png"
 import rtc from "../assets/produto_rtc.webp"
 
 import { Produto } from "../components/Produto.jsx";
@@ -28,11 +28,7 @@ export function ProdutosUtilizados() {
 
                 <div className="flex flex-wrap justify-center gap-5 w-full">
 
-                    <Produto imagem={arduino} produto="Arduino" preco="74,90" />
-
-                    <Produto imagem={sensordechuva} produto="Sensor de chuva" preco="5,22" />
-
-                    <Produto imagem={camera} produto="Câmera UNIHIKER K10" preco="246,38" />
+                    <Produto imagem={camera} produto="Huskylens: Câmera IA" preco="645,90" />
 
                     <Produto imagem={resistores} produto="Resistores" preco="28,40" />
 
@@ -43,8 +39,6 @@ export function ProdutosUtilizados() {
                     <Produto imagem={fonteajustavel} produto="Fonte Ajustável" preco="10,90" />
 
                     <Produto imagem={reguladordetensao} produto="Regulador de tensão" preco="9,90" />
-
-                    <Produto imagem={servomotor} produto="Servo motor" preco="24,90" />
 
                     <Produto imagem={rtc} produto="Real Time Clock RTC" preco="24,99" />
 
