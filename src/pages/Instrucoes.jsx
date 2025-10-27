@@ -1,7 +1,10 @@
 import { Header } from "../components/Header.jsx"
 import { Instrucao } from "../components/Instrucao.jsx"
 
+
+import tabela from "../assets/tabela.jpeg"
 import prototipo from "../assets/prototipo.png"
+import configuracao from "../assets/configuracao.jpeg"
 import prototipofundo from "../assets/PrototipoCFundo.png"
 import areareservada from "../assets/areareservada.png"
 import circle_bg from "../assets/circle_bg.png"
@@ -19,7 +22,7 @@ export function Instrucoes() {
 
                     <div className="relative flex items-center justify-center">
                         <div className="relative z-10">
-                            <img src={prototipofundo} alt="Protótipo" className="h-70 mt-8 mb-10" />
+                            <img src={prototipo} alt="Protótipo" className="h-70 mt-8 mb-10" />
                         </div>
                     </div>
 
@@ -37,7 +40,7 @@ export function Instrucoes() {
 
                         <div className="flex items-center justify-center">
                             <div className="relative z-10">
-                                <img src={prototipofundo} alt="Protótipo" className="w-120 mt-8" />
+                                <img src={prototipo} alt="Protótipo" className="w-120 mt-8" />
                             </div>
                         </div>
                     </div>
@@ -47,11 +50,11 @@ export function Instrucoes() {
 
                 <Instrucao cor={"bg-dark-greenn"} dark={"dark:bg-dark-greenn"} titulo={"Abastecimento"} imagem={areareservada} esquerda={true} texto={"O interior do dispositivo permite o armazenamento dos feromônios e de  fitas atrativas. O produtor pode inserí-los facilmente dentro do compartimento interno. As fitas devem ser repostas manualmente, fixando as extremidadades do segmento de fita nos suportes laterais dentro do compartimento."} texto2={"O Argos também é alimentado por um Powerbank recarregável para prolongar seu tempo de uso. Ele conta com placas solares posicionadas na sua parte superior, que recarregam a bateria durante o dia. Isso reduz a frequência de recargas e garante funcionamento prolongado nas plantações."}/>
 
-                <Instrucao cor={"bg-light-green"} dark={"dark:bg-dark-green"} titulo={"CONFIGURAÇÃO"} imagem={areareservada} esquerda={false}  textoC={"Pelo aplicativo do Argos, defina os intervalos em que a câmera ativa a contagem de insetos. Essa configuração permite ajustar a frequência de coleta de dados de acordo com as necessidades do usuário, combinando precisão com consumo de energia."}/>
+                <Instrucao cor={"bg-light-green"} dark={"dark:bg-dark-green"} titulo={"CONFIGURAÇÃO"} imagem={configuracao} esquerda={false}  textoC={"Pelo aplicativo do Argos, defina os intervalos em que a câmera ativa a contagem de insetos. Essa configuração permite ajustar a frequência de coleta de dados de acordo com as necessidades do usuário, combinando precisão com consumo de energia."}/>
 
                 <Instrucao cor={"bg-dark-greenn"} dark={"dark:bg-dark-greenn"} titulo={"COLETA DE DADOS"} imagem={areareservada} esquerda={true} textoC={"A câmera realiza a contagem dos insetos atraídos para o interior do dispositivo dentro de intervalos definidos pelo usuário. A cada ativação, o número de insetos detectados é enviado  para o aplicativo, permitindo o acompanhamento remoto em tempo real."} textoC2={"Nos períodos de inatividade, o sistema entra em modo repouso para menor consumo de energia e prolongar a  utilidade da bateria."}/>
 
-                <Instrucao cor={"bg-light-green"} dark={"dark:bg-dark-green"} titulo={"ANÁLISE DE DADOS"} imagem={areareservada} esquerda={false} textoC={"Os dados coletados sobre o número de insetos capturados por intervalos de tempo indicam quais regiões da propriedade e épocas do ano apresentam maior incidência de pragas. Com essas informações, ele pode elaborar um calendário estratégico de pulverizações, evitando aplicações desnecessárias e reduzindo o uso de defensivos químicos. Assim, é possível reduzir gastos e minimizar o impacto ambiental, garantindo um produto final mais saudável."} texto={"Em períodos de baixa incidência de pragas, o produtor pode optar por utilizar apenas o Argos no controle das pragas, até que a infestação exija outras medidas de manejo."}/>
+                <Instrucao cor={"bg-light-green"} dark={"dark:bg-dark-green"} titulo={"ANÁLISE DE DADOS"} imagem={tabela} esquerda={false} textoC={"Os dados coletados sobre o número de insetos capturados por intervalos de tempo indicam quais regiões da propriedade e épocas do ano apresentam maior incidência de pragas. Com essas informações, ele pode elaborar um calendário estratégico de pulverizações, evitando aplicações desnecessárias e reduzindo o uso de defensivos químicos. Assim, é possível reduzir gastos e minimizar o impacto ambiental, garantindo um produto final mais saudável."} texto={"Em períodos de baixa incidência de pragas, o produtor pode optar por utilizar apenas o Argos no controle das pragas, até que a infestação exija outras medidas de manejo."}/>
 
                 <div className="bg-white dark:bg-dark-mode flex flex-col justify-center items-center pb-2">
                     <h2 className="uppercase font-strike text-2xl text-black dark:text-white mt-10 text-center">AINDA HÁ DÚVIDAS? ASSISTA ESTE VÍDEO</h2>
