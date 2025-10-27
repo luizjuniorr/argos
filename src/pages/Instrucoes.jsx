@@ -7,6 +7,7 @@ import prototipo from "../assets/prototipo.png"
 import configuracao from "../assets/configuracao.jpeg"
 import abastecimento from "../assets/abastecimento.png"
 import coletadedados from "../assets/coletadedados.png"
+import campo from "../assets/campo.png"
 
 import prototipofundo from "../assets/PrototipoCFundo.png"
 import areareservada from "../assets/areareservada.png"
@@ -49,7 +50,7 @@ export function Instrucoes() {
                     </div>
                 </div>
 
-                <Instrucao cor={"bg-dark-green"} dark={"dark:bg-dark-green"} imagem={areareservada} esquerda={false} titulo={"Instalação"} texto={"A instalação foi projetada para ser simples e prática. O dispositivo apenas precisa de uma plataforma para deixá-lo elevado em relação ao solo e que suporte seu peso. Recomendamos a instalação de um dispositivo para cada 100 m², em média. No entanto, essa distância pode variar conforme o raio de alcance do feromônio utilizado."}/>
+                <Instrucao cor={"bg-dark-green"} dark={"dark:bg-dark-green"} imagem={campo} esquerda={false} titulo={"Instalação"} texto={"A instalação foi projetada para ser simples e prática. O dispositivo apenas precisa de uma plataforma para deixá-lo elevado em relação ao solo e que suporte seu peso. Recomendamos a instalação de um dispositivo para cada 100 m², em média. No entanto, essa distância pode variar conforme o raio de alcance do feromônio utilizado."}/>
 
                 <Instrucao cor={"bg-dark-greenn"} dark={"dark:bg-dark-greenn"} titulo={"Abastecimento"} imagem={abastecimento} esquerda={true} texto={"O interior do dispositivo permite o armazenamento dos feromônios e de  fitas atrativas. O produtor pode inserí-los facilmente dentro do compartimento interno. As fitas devem ser repostas manualmente, fixando as extremidadades do segmento de fita nos suportes laterais dentro do compartimento."} texto2={"O Argos também é alimentado por um Powerbank recarregável para prolongar seu tempo de uso. Ele conta com placas solares posicionadas na sua parte superior, que recarregam a bateria durante o dia. Isso reduz a frequência de recargas e garante funcionamento prolongado nas plantações."}/>
 
