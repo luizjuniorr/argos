@@ -35,7 +35,7 @@ export function Projeto() {
 
                             </div>
 
-                            <img src={prototipo} alt="Protótipo Argos" className="hidden md:block md:ml-10" />
+                            <img src={prototipo} alt="Protótipo Argos" className="hidden md:block md:ml-10 h-120" />
                         </div>
                     </div>
 
