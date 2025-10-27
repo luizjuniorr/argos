@@ -2,7 +2,7 @@ import { Header } from "../components/Header.jsx"
 import { Instrucao } from "../components/Instrucao.jsx"
 
 
-import tabela from "../assets/tabela.jpeg"
+import tabela from "../assets/Tabela.jpeg"
 import prototipo from "../assets/prototipo.png"
 import configuracao from "../assets/configuracao.jpeg"
 import prototipofundo from "../assets/PrototipoCFundo.png"
