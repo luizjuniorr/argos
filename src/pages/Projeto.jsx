@@ -33,11 +33,6 @@ export function Projeto() {
                                     </button>
                                 </Link>
 
-
-                                <div className="flex gap-4 mt-10 justify-center md:justify-start">
-                                    <img src={GooglePlay} alt="Google Play" className="h-10" />
-                                    <img src={AppStore} alt="App Store" className="h-10" />
-                                </div>
                             </div>
 
                             <img src={prototipo} alt="Protótipo Argos" className="hidden md:block md:ml-10" />
@@ -45,7 +40,7 @@ export function Projeto() {
                     </div>
 
                     <div className="flex flex-col md:flex-row justify-center items-center gap-10 pb-5 mt-10">
-                        <Servicos ImagemClaro={icon_objetivo} ImagemEscuro={icon_objetivo} Titulo="Objetivo" Texto="Oferecer uma tecnologia de monitoramento de pragas no campo e contribuir para a redução do uso de agrotóxicos" />
+                        <Servicos ImagemClaro={icon_objetivo} ImagemEscuro={icon_objetivo} Titulo="Objetivo" Texto="Oferecer uma tecnologia de monitoramento de pragas no campo e contribuir para a redução do uso de inseticidas" />
                         <Servicos ImagemClaro={icon_nossodiferencial} ImagemEscuro={icon_nossodiferencial} Titulo="Nosso diferencial" Texto="Unimos controle de pragas e coleta de dados sem impacto ambiental" />
                         <Servicos ImagemClaro={icon_publicoalvo} ImagemEscuro={icon_publicoalvo} Titulo="Público-alvo" Texto="Nosso projeto é voltado para todos os produtores rurais, desde o pequeno agricultor até o grande empresário do agronegócio" />
                     </div>

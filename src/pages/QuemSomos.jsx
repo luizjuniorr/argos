@@ -50,7 +50,7 @@ export function QuemSomos() {
 
                         <Servicos ImagemClaro={acessoriatecnica_claro} ImagemEscuro={acessoriatecnica_escuro} Titulo="Assessoria Técnica" Texto="Compartilhamos conhecimento para impulsionar produção" />
 
-                        <Servicos ImagemClaro={consultoriaambiental_claro} ImagemEscuro={consultoriaambiental_escuro} Titulo="Consultoria Ambiental" Texto="Possuímos práticas sustentáveis que não prejudicam as plantações"/>
+                        <Servicos ImagemClaro={consultoriaambiental_claro} ImagemEscuro={consultoriaambiental_escuro} Titulo="Responsabilidade Ambiental" Texto="Possuímos práticas sustentáveis que não prejudicam as plantações"/>
 
                         <Servicos ImagemClaro={planejamentorural_claro} ImagemEscuro={planejamentorural_escuro} Titulo="Planejamento Rural" Texto="Com o nosso protótipo você consegue ver em qual estação possui um grande número de pragas"/>
 
@@ -58,11 +58,11 @@ export function QuemSomos() {
 
                     <div className="mt-5 flex flex-col md:flex-row gap-15 md:gap-30">
 
-                        <Servicos ImagemClaro={consultoriaagricola_claro} ImagemEscuro={consultoriaagricola_escuro} Titulo="Consultoria Agricola" Texto="Implementação de técnicas avanças e dicas"/>
+                        <Servicos ImagemClaro={consultoriaagricola_claro} ImagemEscuro={consultoriaagricola_escuro} Titulo="Consultoria Agrícola" Texto="Implementação de técnicas avanças e dicas"/>
 
-                        <Servicos ImagemClaro={tecnologiaagricola_claro} ImagemEscuro={tecnologiaagricola_escuro} Titulo="Tecnologia Agricola" Texto="Único produto com tecnologia de contabilizar as pragas"/>
+                        <Servicos ImagemClaro={tecnologiaagricola_claro} ImagemEscuro={tecnologiaagricola_escuro} Titulo="Tecnologia Agrícola" Texto="Único produto com tecnologia de contabilizar as pragas"/>
 
-                        <Servicos ImagemClaro={monitoramentoagricola_claro} ImagemEscuro={monitoramentoagricola_escuro} Titulo="Monitoramento Agricola" Texto="Conseguimos monitorar a sua plantação"/>
+                        <Servicos ImagemClaro={monitoramentoagricola_claro} ImagemEscuro={monitoramentoagricola_escuro} Titulo="Monitoramento Agricola" Texto="Oferecemos monitoramento para sua plantação"/>
 
                     </div>
 
